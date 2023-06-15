@@ -1,4 +1,3 @@
 class Greeting < ApplicationRecord
-    scope :random, -> { order(Arel.sql('RANDOM()')).first }
+  scope :random, -> { order(Arel.sql('RANDOM()')).first }
 end
-  
