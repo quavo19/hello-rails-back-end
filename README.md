@@ -22,7 +22,12 @@
 
 # 📖 [HELO-RAILS-REACT] <a name="about-project"></a>
 
-**[Hello rails react]** is an application designed for combination of react and rails.
+**[Hello rails backend]** is an application designed for combination of react and rails.
+
+
+## Frontend
+
+The frontend was made with react and can be found [here](https://github.com/quavo19/hello-react-front-end)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,8 +41,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Users combine rails and react in one application]**
-- **[Users consume API]**
+- **[Users Rails to make an API]**
 
 
 
@@ -85,6 +89,10 @@ To run the project, execute the following command:
 ``` sh
 rails s
 ```
+
+``` sh
+you can change the url in the application controller inside the config directory on line 28, to match your port
+```
 ### Run tests
 
 -  Type `Rspec`: To run test `
@@ -95,7 +103,7 @@ rails s
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Akite Donald**
 
